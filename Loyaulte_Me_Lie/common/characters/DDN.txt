@@ -1,0 +1,16 @@
+characters={
+	DDN_Duke_of_Normandy = {
+		name=DDN_Duke_of_Normandy
+		portraits={
+			civilian={
+				large =  "gfx/leaders/ENG/Portrait_Duke_of_Normandy.png"
+			}
+		}
+		country_leader={
+			ideology=aristocracy
+			desc = DDN_Duke_of_Normandy_leader_desc
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

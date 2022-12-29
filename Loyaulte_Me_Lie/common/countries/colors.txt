@@ -875,3 +875,8 @@ TTS = {
 	color = rgb { 230 230 0 }
 	color_ui = rgb { 179 179 0 }
 }
+
+DDN = {
+	color = rgb { 120 200 20 }
+	color_ui = rgb { 20 200 20 }
+}
