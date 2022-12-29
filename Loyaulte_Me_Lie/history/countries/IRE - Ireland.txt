@@ -1,0 +1,68 @@
+﻿capital = 113
+
+oob = "IRE_1936"
+
+set_research_slots = 3
+set_cosmetic_tag = IRE_ENG
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	fuel_silos = 1
+	basic_train = 1
+}
+
+set_convoys = 10
+
+recruit_character = IRE_winston_churchill
+recruit_character = IRE_Éamon_de_valera
+recruit_character = IRE_eoin_oduffy
+recruit_character = IRE_james_larkin
+recruit_character = IRE_william_norton
+recruit_character = IRE_michael_costello
+recruit_character = IRE_p_a_mulcahy
+recruit_character = IRE_liam_archer
+recruit_character = IRE_a_t_lawlor
+recruit_character = IRE_oscar_traynor
+recruit_character = IRE_frank_fahy
+recruit_character = IRE_h_t_green
+recruit_character = IRE_michael_brennan
+recruit_character = IRE_richard_james_mulcahy
+recruit_character = IRE_michael_joe_costello
+recruit_character = IRE_dan_mckenna
+recruit_character = IRE_s_muiris
+recruit_character = IRE_john_byrne
+recruit_character = IRE_sean_lemass
+recruit_character = IRE_douglas_hyde
+recruit_character = IRE_sean_ceallaigh
+
+
+add_ideas = {
+	IRE_DARKEST_HOUR
+	IRE_economic_crisis
+	IRE_disloyal_peasant
+	IRE_ENF_ANGLOIS
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1933.1.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	ultraroyalisme = 1
+	royalist = 5
+	authoritarian_democrat = 30 
+	democratic = 20
+	social_liberal = 17
+	market_liberal = 1
+	social_democrat = 8
+	communism = 2
+	fascism = 14
+	ultranationalism = 2
+
+}
+

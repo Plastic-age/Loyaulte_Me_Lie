@@ -1,0 +1,55 @@
+ideas = {
+	country = {
+
+		IRE_ENF_ANGLOIS = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea IRE_ENF_ANGLOIS" }
+			picture = GFX_idea_IRE_ENF_ANGLOIS
+			allowed = { always = no }
+			modifier = {
+				stability_factor = -0.03
+				social_liberal_drift = 0.01
+			}
+		}
+
+		IRE_disloyal_peasant = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea IRE_disloyal_peasant" }
+			picture = POL_looming_peasants_strike
+			allowed = { always = no }
+			modifier = {
+				conscription_factor = -0.05
+				monthly_population = -0.05
+				local_resources_factor = -0.05
+				authoritarian_democrat_drift = -0.01
+			}
+		}
+
+		IRE_DARKEST_HOUR = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea IRE_DARKEST_HOUR" }
+			picture = GFX_idea_IRE_DARKEST_HOUR
+			allowed = { always = no }
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.10
+				communism_drift = 0.01
+				fascism_drift =  0.01
+			}
+			targeted_modifier = {
+				tag = ENG
+				cic_to_target_factor = 0.05
+			}
+		}
+
+		IRE_economic_crisis = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea IRE_economic_crisis" }
+			picture = usa_great_depression
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.10
+				industrial_capacity_factory = -0.10
+			}
+		}
+		
+		
+	}
+}

@@ -1,0 +1,34 @@
+spriteTypes = {
+
+	############
+	# added ideas
+	############
+	spriteType = {
+		name = "GFX_idea_IRE_ENF_ANGLOIS"
+		texturefile = "gfx/interface/ideas/ENF/ENF_Anglois.png"
+	}
+	spriteType = {
+		name = "GFX_idea_IRE_DARKEST_HOUR"
+		texturefile = "gfx/interface/ideas/IRE/IRE_Darkest_hour.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_UNITED_KINGDOM"
+		texturefile = "gfx/interface/ideas/ENG/idea_ENG_United_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_ENF_ANGLOIS"
+		texturefile = "gfx/interface/ideas/ENF/ENF_Anglois.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_Vigilante"
+		texturefile = "gfx/interface/ideas/ENG/viligante.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_Collapse_navy"
+		texturefile = "gfx/interface/ideas/ENG/ENG_Ship_Sinking.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_aristocracy_army"
+		texturefile = "gfx/interface/ideas/ENG/autocrasy_army.png"
+	}
+}
