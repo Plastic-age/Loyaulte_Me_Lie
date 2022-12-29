@@ -224,6 +224,11 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
+	set_autonomy = {
+		target = DDN
+		autonomous_state = autonomy_dominion
+	}
+	
 	else = {
 		puppet = BRI
 		puppet = MAL
