@@ -134,8 +134,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Monarch Temporall"
-	picture = GFX_portrait_Monarch_Temporally
+	name = "Duke of Normandy"
+	picture = GFX_portrait_Duke_of_Normandy
 	expire = "1965.1.1"
 	ideology = aristocracy
 }
