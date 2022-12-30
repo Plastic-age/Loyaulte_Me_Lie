@@ -17,7 +17,7 @@ ideas = {
 			allowed = { always = no }
 			modifier = {
 				conscription_factor = -0.05
-				monthly_population = -0.05
+				monthly_population = -0.02
 				local_resources_factor = -0.05
 				authoritarian_democrat_drift = -0.01
 			}

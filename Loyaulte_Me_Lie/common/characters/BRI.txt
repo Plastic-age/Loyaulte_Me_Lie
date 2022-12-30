@@ -1,12 +1,16 @@
 characters={
 	BRI_Wynford_Philipps = {
-		name="John Philipps, 1st Viscount St Davids"
+		name="Yann VII"
 		portraits={
 			civilian={
 				large = "gfx/leaders/BRI/Portrait_Wynford_Philipps.png"
 			}
 		}
 		country_leader = {
+			desc = BRI_Wynford_Philipps_leader_desc
+			traits = {
+				Prince_Consort
+			}
 			ideology = aristocracy
 			expire = "1965.1.1.1"
 			id = -1

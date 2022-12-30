@@ -31,4 +31,17 @@ spriteTypes = {
 		name = "GFX_idea_ENG_aristocracy_army"
 		texturefile = "gfx/interface/ideas/ENG/autocrasy_army.png"
 	}
+	spriteType = {
+		name = "GFX_idea_BRI_ENF_ANGLOIS"
+		texturefile = "gfx/interface/ideas/ENF/ENF_Anglois.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BRI_WHO"
+		texturefile = "gfx/interface/ideas/BRI/BRI_WHO_GUY.png"
+	}
+	spriteType = {
+		name = "GFX_idea_BRI_ENGAGE_LBB"
+		texturefile = "gfx/interface/ideas/BRI/BRI_FIGHT_LBB.png"
+	}
+
 }

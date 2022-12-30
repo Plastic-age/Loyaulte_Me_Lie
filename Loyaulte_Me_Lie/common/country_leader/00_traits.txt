@@ -299,6 +299,15 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	Prince_Consort = {
+		random = no
+		stability_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 
 	chamberlain_appeaser = {
 		random = no

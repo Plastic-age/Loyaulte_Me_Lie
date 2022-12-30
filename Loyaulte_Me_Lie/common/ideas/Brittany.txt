@@ -1,0 +1,57 @@
+ideas = {
+	country = {
+
+		BRI_ENF_ANGLOIS = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BRI_ENF_ANGLOIS" }
+			picture = GFX_idea_BRI_ENF_ANGLOIS
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.03
+				royalist_drift = 0.01
+				monthly_population = 0.02
+			}
+		}
+		BRI_BRITTANY_ANGLOIS_COP = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BRI_BRITTANY_ANGLOIS_COP" }
+			picture = generic_deal_with_the_devil2
+			allowed = { always = no }
+			modifier = {
+				war_stability_factor = 0.10
+				war_support_factor = 0.15
+				experience_gain_army = 0.10
+			}
+			targeted_modifier = {
+				tag = FRA
+				defence_bonus_against = 0.10
+			}
+		}
+		BRI_economic_crisis = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BRI_economic_crisis" }
+			picture = usa_great_depression
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_speed_buildings_factor = -0.15
+				industrial_capacity_factory = -0.15
+			}
+		}
+		BRI_WHO = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BRI_WHO" }
+			picture = GFX_idea_BRI_WHO
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = 0.02
+			}
+		}
+		BRI_ENGAGE_LBB = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BRI_ENGAGE_LBB" }
+			picture = GFX_idea_BRI_WHO
+			allowed = { always = no }
+			modifier = {
+				conscription_factor = -0.02
+				political_power_factor = -0.03
+				stability_factor = -0.10
+			}
+		}
+	}
+}
