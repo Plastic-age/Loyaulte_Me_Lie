@@ -54,5 +54,15 @@ ideas = {
 				stability_factor = -0.10
 			}
 		}
+		BRI_ENGAGE_LBB_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BRI_ENGAGE_LBB_2" }
+			picture = GFX_idea_BRI_WHO
+			allowed = { always = no }
+			modifier = {
+				conscription_factor = -0.04
+				political_power_factor = -0.05
+				stability_factor = -0.07
+			}
+		}
 	}
 }
