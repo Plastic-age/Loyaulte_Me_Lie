@@ -22,7 +22,8 @@ ideas = {
 			}
 			targeted_modifier = {
 				tag = FRA
-				defence_bonus_against = 0.10
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
 			}
 		}
 		BRI_economic_crisis = {
