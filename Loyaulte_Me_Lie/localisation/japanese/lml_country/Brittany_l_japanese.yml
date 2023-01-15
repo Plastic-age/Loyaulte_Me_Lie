@@ -5,6 +5,8 @@
  BRI_democratic_DEF:0 "ブルトン自由共和国"
  BRI_communism:0 "ブルターニュ社会主義国"
  BRI_communism_DEF:0 "ブルターニュ社会主義国"
+ BRI_royalist:0 "ブルターニュ公国"
+ BRI_royalist_DEF:0 "ブルターニュ公国"
  BRI:0 "ブルターニュ"
  BRI_DEF:0 "ブルターニュ"
  BRI_ADJ:0 "ブルターニュ"
