@@ -1,0 +1,38 @@
+ideas = {
+	country = {
+
+		DDN_ENF_ANGLOIS = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DDN_ENF_ANGLOIS" }
+			picture = GFX_idea_DDN_ENF_ANGLOIS
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		DDN_economic_crisis = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DDN_economic_crisis" }
+			picture = usa_great_depression
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+		}
+		DDN_political_bebe = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DDN_political_bebe" }
+			picture = ROM_king_carol_ii_hedonist
+			allowed = { always = no }
+			modifier = {
+				authoritarian_democrat_drift = 0.01
+			}
+		}
+		DDN_glory_days = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DDN_glory_days" }
+			picture = GFX_idea_DDN_glory_days
+			allowed = { always = no }
+			modifier = {
+
+			}
+		}
+	}
+}
