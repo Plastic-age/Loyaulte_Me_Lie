@@ -13,4 +13,31 @@ characters={
 			id=-1
 		}
 	}
+	DDN_emile_Guepratte = {
+		name=DDN_emile_Guepratte
+		portraits={
+			civilian={
+				large =  "gfx/leaders/DDN/Portrait_emile_Guepratte.png"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democrat_subtype
+			desc = DDN_emile_Guepratte_leader_desc
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
+	DDN_Andre_Bettencourt = {
+		name=DDN_Andre_Bettencourt
+		portraits={
+			civilian={
+				large =  "gfx/leaders/DDN/Portrait_Andre_Bettencourt.png"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
 }

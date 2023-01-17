@@ -43,5 +43,12 @@ spriteTypes = {
 		name = "GFX_idea_BRI_ENGAGE_LBB"
 		texturefile = "gfx/interface/ideas/BRI/BRI_FIGHT_LBB.png"
 	}
-
+	spriteType = {
+		name = "GFX_idea_DDN_ENF_ANGLOIS"
+		texturefile = "gfx/interface/ideas/ENF/ENF_Anglois.png"
+	}
+	spriteType = {
+		name = "GFX_idea_DDN_glory_days"
+		texturefile = "gfx/interface/ideas/DDN/DDN_Suffren.png"
+	}
 }
