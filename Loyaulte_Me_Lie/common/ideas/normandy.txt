@@ -34,5 +34,23 @@ ideas = {
 
 			}
 		}
+		DDN_patoriotic_investment = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DDN_patoriotic_investment" }
+			picture = generic_economic_increase
+			allowed = { always = no }
+			modifier = {
+				production_factory_max_efficiency_factor = 0.02
+				industrial_capacity_factory = 0.02
+				local_resources_factor = 0.02
+			}
+		}
+		DDN_MONGO_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea DDN_MONGO_idea" }
+			picture = GFX_idea_DDN_MONGO_idea
+			allowed = { always = no }
+			modifier = {
+
+			}
+		}
 	}
 }

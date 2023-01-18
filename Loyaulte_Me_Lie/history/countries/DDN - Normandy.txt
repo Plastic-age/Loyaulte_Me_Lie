@@ -114,9 +114,11 @@ if = {
 set_convoys = 100
 
 add_ideas = {
-	DDN_political_bebe
 	DDN_economic_crisis
 	DDN_ENF_ANGLOIS
+	DDN_political_bebe
+	DDN_patoriotic_investment
+	DDN_MONGO_idea
 	DDN_glory_days
 }
 

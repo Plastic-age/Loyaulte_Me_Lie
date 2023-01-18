@@ -24,6 +24,9 @@ characters={
 			ideology=authoritarian_democrat_subtype
 			desc = DDN_emile_Guepratte_leader_desc
 			expire="1965.1.1.1"
+			traits = {
+				viceroy_viceadmiral
+			}
 			id=-1
 		}
 	}	
