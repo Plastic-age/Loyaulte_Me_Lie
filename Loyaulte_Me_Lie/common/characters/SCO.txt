@@ -1,28 +1,20 @@
 characters={
-		SCO_george_V={
-		advisor={
-			slot = political_advisor
-			idea_token = SCO_fascist_guy
-			allowed  = {
-					original_tag  = SCO
-				}
-				traits  = {
-					popular_figurehead 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = authoritarian_democrat 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_2"
+	SCO_george_V = {
+		name = SCO_george_V
+		portraits = {
+			civilian = {
+				large =  "gfx/leaders/SCO/Portrait_King_George_V.png"
 			}
+		}
+
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			desc = SCO_george_V_leader_desc
+			traits = {
+				popular_figurehead
+			}
+			expire = "1965.1.1.1"
+			id = -1
 		}
 	}
 	SCO_ncm={
