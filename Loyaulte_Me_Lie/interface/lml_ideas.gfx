@@ -63,4 +63,12 @@ spriteTypes = {
 		name = "GFX_idea_SCO_I_miss_Douglas_Haig"
 		texturefile = "gfx/interface/ideas/SCO/SCO_Douglas_Haig.png"
 	}
+	spriteType = {
+		name = "GFX_idea_FRA_third_way_economy"
+		texturefile = "gfx/interface/ideas/FRA/FRA_third_way.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Heart_of_Darkness"
+		texturefile = "gfx/interface/ideas/FRA/Africa_blood.png"
+	}
 }
