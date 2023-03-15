@@ -71,4 +71,16 @@ spriteTypes = {
 		name = "GFX_idea_FRA_Heart_of_Darkness"
 		texturefile = "gfx/interface/ideas/FRA/Africa_blood.png"
 	}
+	spriteType = {
+		name = "GFX_idea_GER_mosaique"
+		texturefile = "gfx/interface/ideas/GER/GER_reich.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_mercenary"
+		texturefile = "gfx/interface/ideas/GER/GER_Landsknecht.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_divide_church"
+		texturefile = "gfx/interface/ideas/GER/GER_Cross.png"
+	}
 }
